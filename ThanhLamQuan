@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quán Thanh Lam</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            color: #004d40;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #00796b;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+        }
+        header img {
+            width: 100%;
+            height: auto;
+        }
+        header .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 121, 107, 0.5);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+            background-color: #ffffff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            border-bottom: 2px solid #00796b;
+            padding-bottom: 5px;
+        }
+        .menu-item {
+            margin-bottom: 10px;
+        }
+        .menu-item img {
+            max-width: 100px;
+            height: auto;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+        .contact {
+            background-color: #b2dfdb;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #00796b;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://via.placeholder.com/1200x400?text=Thanh+Lam+Restaurant" alt="Thanh Lam Restaurant">
+        <div class="overlay">
+            <h1>Quán Thanh Lam</h1>
+            <p>370 Vành Đai Trong, Phường Bình Trị Đông B, Quận Bình Tân, TP. Hồ Chí Minh</p>
+            <p>Hotline: 0986688596 - 0985754200</p>
+        </div>
+    </header>
+    <div class="container">
+        <div class="section">
+            <h2>Lịch sử quán</h2>
+            <p>Quán Thanh Lam đã hoạt động được 20 năm, phục vụ các món ăn đặc sắc và được yêu thích bởi nhiều thực khách.</p>
+        </div>
+        <div class="section">
+            <h2>Thực đơn</h2>
+            <div class="menu-item">
+                <h3>Các loại ốc</h3>
+                <ul>
+                    <li>
+                        <img src="path_to_your_image" alt="Ốc hương">
+                        Ốc hương
+                    </li>
+                    <li>
+                        <img src="path_to_your_image" alt="Ốc cà na">
+                        Ốc cà na
+                    </li>
+                    <li>
+                        <img src="path_to_your_image" alt="Sò huyết">
+                        Sò huyết
+                    </li>
+                    <!-- Thêm các loại ốc khác tương tự -->
+                </ul>
+            </div>
+            <div class="menu-item">
+                <h3>Các loại lẩu</h3>
+                <ul>
+                    <li>
+                        <img src="path_to_your_image" alt="Lẩu Thái">
+                        Lẩu Thái
+                    </li>
+                    <li>
+                        <img src="path_to_your_image" alt="Lẩu hải sản">
+                        Lẩu hải sản
+                    </li>
+                    <li>
+                        <img src="path_to_your_image" alt="Lẩu cá điêu hồng">
+                        Lẩu cá điêu hồng
+                    </li>
+                    <!-- Thêm các loại lẩu khác tương tự -->
+                </ul>
+            </div>
+            <!-- Thêm các danh sách thực đơn khác -->
+        </div>
+        <div class="section">
+            <h2>Giờ mở cửa</h2>
+            <p>Từ 16h đến 4h hàng ngày</p>
+        </div>
+        <div class="section contact">
+            <h2>Liên hệ</h2>
+            <p>Địa chỉ: 370 Vành Đai Trong, Phường Bình Trị Đông B, Quận Bình Tân, TP. Hồ Chí Minh</p>
+            <p>Điện thoại: 0986688596 - 0985754200</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Quán Thanh Lam. All rights reserved.</p>
+    </footer>
+</body>
+</html>
